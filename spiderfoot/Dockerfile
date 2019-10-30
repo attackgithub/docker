@@ -40,7 +40,7 @@ RUN rm -rf /var/lib/apt/lists/* \
 RUN addgroup spiderfoot && \
     useradd -r -g spiderfoot -d /home/spiderfoot -s /sbin/nologin -c "SpiderFoot User" spiderfoot
 
-ENV SPIDERFOOT_VERSION 2.11.0
+ENV SPIDERFOOT_VERSION 2.12.0
 
 # Download the specified release.
 WORKDIR /home
