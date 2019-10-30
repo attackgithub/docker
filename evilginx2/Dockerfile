@@ -1,5 +1,7 @@
 FROM golang:1.10.3-alpine AS build
 
+LABEL maintainer="warhorse@thedarkcloud.net"
+
 RUN apk add --update \
     git \
   && rm -rf /var/cache/apk/*

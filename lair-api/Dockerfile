@@ -1,5 +1,7 @@
 FROM mvertes/alpine-mongo:3.6.1-0
 
+LABEL maintainer="warhorse@thedarkcloud.net"
+
 EXPOSE 11015
 
 RUN apk add --update libressl

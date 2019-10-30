@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-MAINTAINER Ralph May <ralph@thedarkcloud.net>
+LABEL maintainer="warhorse@thedarkcloud.net"
 
 ENV MODLISHKA_REPOSITORY="github.com/drk1wi/Modlishka"
 ENV INSTALL_PACKAGES="git make gcc musl-dev"

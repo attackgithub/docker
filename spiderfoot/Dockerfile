@@ -1,17 +1,6 @@
-#
-# Spiderfoot Dockerfile 
-#
-# http://www.spiderfoot.net
-#
-# Written by: Michael Pellon <m@pellon.io>
-#
-# Usage:
-#
-#   sudo docker build -t spiderfoot .
-#   sudo docker run -it -p 8080:8080 spiderfoot
-
-# Pull the base image.
 FROM ubuntu:16.04
+
+LABEL maintainer="warhorse@thedarkcloud.net"
 
 # Install pre-requisites.
 RUN apt-get update && apt-get install -y \

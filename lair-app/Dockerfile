@@ -1,5 +1,7 @@
 FROM node:8.2.1
 
+LABEL maintainer="warhorse@thedarkcloud.net"
+
 EXPOSE 11014
 
 WORKDIR /root/app

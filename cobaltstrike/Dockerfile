@@ -1,5 +1,6 @@
 FROM kalilinux/kali-linux-docker
-MAINTAINER Ralph May <ralph@thedarkcloud.net>
+
+LABEL maintainer="warhorse@thedarkcloud.net"
 
 RUN apt-get install -y gnupg 
 RUN apt-get -y update && apt-get -y dist-upgrade && apt-get clean
