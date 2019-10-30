@@ -1,7 +1,7 @@
-Cobaltstirke - warhorse/cobaltstrike:tagname
-Cobaltstirke-ag - warhorse/cobaltstrike-ag:tagname
-Modlishka - warhorse/modlishka:tagname
-Lair - warhorse/lair-app:tagname
-       warhorse/lair-api:tagname
-Evilginx2 - warhorse/evilginx2:tagname
-Spiderfoot - warhorse/spiderfoot:tagname
+Cobaltstirke - warhorse/cobaltstrike:latest
+Cobaltstirke-ag - warhorse/cobaltstrike-ag:latest
+Modlishka - warhorse/modlishka:latest
+Lair - warhorse/lair-app:latest
+       warhorse/lair-api:latest
+Evilginx2 - warhorse/evilginx2:latest
+Spiderfoot - warhorse/spiderfoot:latest
